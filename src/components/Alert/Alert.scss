@@ -1,0 +1,25 @@
+.notification {
+    width: calc(100% - 80px);
+    display: flex;
+    align-items: center;
+    height: 100px;
+    padding: 20px;
+    margin: 20px;
+    font-size: 24px;
+    font-family: sans-serif;
+    &-msg {
+        flex: 1 1 auto;
+    }
+}
+
+.is-danger-alert {
+    background-color: rgb(255, 134, 134);
+}
+.is-primary-alert {
+    background-color: #a0f8a4;
+}
+
+.delete {
+    align-self: flex-start;
+    order: 1;
+}

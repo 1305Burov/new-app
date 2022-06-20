@@ -1,0 +1,30 @@
+.label {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.input {
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+}
+
+.is-danger {
+    color: #f83131;
+    border-color: #f83131;
+}
+
+.green {
+    border-color: #07ad07;
+}
+
+.small {
+    width: 100px;
+}
+
+.large {
+    width: 400px;
+}
