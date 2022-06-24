@@ -5,11 +5,8 @@ const Input = (
         label,
         color,
         value,
-        type,
         size,
-        placeholder,
         isError,
-        onChange,
         ...props
     }
 ) => {
@@ -21,9 +18,7 @@ const Input = (
                 <input 
                     value={value}
                     className={`input ${color} ${size} ${isError && 'is-danger'}`}
-                    type={type}
-                    placeholder={placeholder}
-                    onChange={onChange}
+                     
                     {...props}
                 />           
             </label>

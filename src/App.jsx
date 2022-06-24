@@ -2,19 +2,17 @@ import Title from './components/Title'
 import Input from './components/Input/Input';
 import Alert from './components/Alert/Alert';
 import Card from './components/Card/Card';
+import Write from './components/Write/Write';
 
 export default function App() {
     return (
         <>
             <Title title='Inputs' level='h2' className='title'/>
-            <Input 
-                label='name'
-                type='text'
-                placeholder='enter your name'
-                color='green'
-                size='small'
-            />
-            <Input 
+            
+
+            <Write />
+
+            {/* <Input 
                 label='email'
                 type='email'
                 placeholder='enter your mail'
@@ -54,7 +52,7 @@ export default function App() {
                 <Card>
                     Bye!
                 </Card>
-            </div>
+            </div> */}
  
         </>
     ) 
